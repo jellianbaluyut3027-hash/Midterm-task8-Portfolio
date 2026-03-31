@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Labtask6-1</title>
+    <style>
+        
+    .display-block {
+        display: block;
+        margin-bottom: 5px;
+        padding: 3px;
+    }
+
+    
+     .inline-block{
+        width: 300px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .google-section{
+        text-align: center;
+    }
+
+    .google-logo{
+        width: 500px;
+        display: block;
+        margin: 0 auto;
+    }       
+
+    .google-search{
+        text-align: center;
+        width: 450px;
+        padding: 7px;
+        border-radius: 25px;
+        border-color: #ccc;
+    }
+
+    .signin{
+        margin-left: 30%;
+    }
+
+     .signin input {
+        height: 30px;
+        width: 20%;    
+    }
+
+     .signin input + input + input{ 
+        width: 44%;
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .signin input + input + input + button{
+    width: 45.5%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(57, 119, 235);
+    color:aliceblue;
+    margin-top: 10px;
+    }
+
+    .signin button:hover {
+        background-color: rgb(182, 211, 245);
+        color:rgb(10, 19, 63);
+    }
+
+    .signin button:active {
+        background-color: rgb(74, 92, 112);
+        color:rgb(10, 19, 63);
+    }
+
+    fieldset{
+        width: 50%;
+        margin: auto;
+        padding: 5px;
+    }
+
+    .ride h1{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .ride input{
+        display: block;
+        margin-bottom: 5px;
+        padding: 3px;
+        width: 98%;
+        height: 30px;
+        background-color: #e0e0e0;
+        border: none;
+    }
+
+    .ride button{
+        height: 40px;
+        width: auto;
+        margin-top: 25px;
+        background-color: #e0e0e0;
+        border: none;
+    }
+
+    .ride button:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .ride button:active{
+        background-color: rgb(108, 117, 248);
+        color: white;
+    }
+
+    
+    </style>
+</head>
+
+<body>
+    <fieldset>
+    <div container>
+   <input type="text" placeholder="Name" class="display-block">
+   <input type="text" placeholder="Email" class="display-block">
+    </div>
+    </fieldset>
+
+    <fieldset>
+   <p class="inline-block">
+    Thanks for chatting with our customer support.
+        Would you like to take our quick survey?
+    </p>
+
+    <button class="inline-box survey-btn">Yes</button>
+    <button class="inline-box survey-btn">No</button>
+    </fieldset>
+   
+    <fieldset>
+    <div class="google-section">
+    <img src="images/logo.jpg" class="google-logo">
+    <input type="text" class="google-search" placeholder="Search Google or type a URL" >
+    </div>
+    </fieldset>
+
+    <fieldset>
+     <div class="signin">
+   <input type="text" placeholder="First Name">
+   <input type="text" placeholder="Last Name">
+   <input type="text" placeholder="Email">
+   <button type="submit">Sign Up</button>
+    </div>
+    </fieldset>
+
+    <fieldset>
+        <div class="ride">
+            <h1>Request a ride now</h1>
+            <input type="text" placeholder="Enter pickup location">
+            <input type="text" placeholder="Enter destination">
+            <button type="submit">Request now</button>
+            <button type="submit">Schedule for later</button>
+        </div>
+    </fieldset>
+
+    <a href="projects.html" style="text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255); border-style: solid;
+    border-color: rgb(126, 25, 25); background-color: rgb(104, 13, 13);
+    padding: 1px;
+    letter-spacing: 1px; 
+    display: inline-block;
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    z-index: 100;">
+    <b><i>GO BACK TO PROJECTS</i></b></a>
+    
+</body>
+</html>

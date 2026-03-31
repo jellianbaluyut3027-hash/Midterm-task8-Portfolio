@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>demo layout semantic using div</title>
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body{
+                margin: 0;
+            }
+
+            header, footer{
+                background-color: rgb(219, 70, 219);
+                height: 80px;
+                display:flex;
+                justify-content: center;
+                align-items:center;
+            }
+
+            ul{
+                list-style-type: none;
+                background-color: rgb(243, 144, 243);
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+            }
+
+            li{float: left;
+                
+            }
+
+            li a{
+                display: block;
+                color: purple;
+                text-align: center;
+                padding: 20px;
+                text-decoration: none;
+            }
+
+            li a:hover{
+                background-color: rgb(250, 153, 243);
+            }
+
+            li a:active{
+                background-color: rgb(190, 109, 184);
+            }
+
+            nav ul{
+                list-style-type: none;
+                background-color:rgb(223, 149, 223) ;
+                
+            }
+
+            aside{
+                width: 20%;
+                float: left;
+                padding: 5px;
+                
+            }
+
+            section{
+                 width: 40%;
+                float: left;
+                padding: 5px;
+            }
+
+
+             article{
+                width: 40%;
+                float: left;
+                padding: 5px;
+            }
+
+            footer{
+                clear: both;
+                text-align: center;
+            }
+
+            @media screen and (max-width:800px) 
+            {
+                 aside,
+                 section,
+                 article
+                {
+                    width: 100%;
+                }
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to my page</h1>
+        </header>
+        
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+
+                <aside>
+                <h2>Aside</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, molestiae odio! Tempore quaerat voluptas magnam delectus amet magni, distinctio cupiditate voluptatem eum. Numquam quae minima autem repellat maiores error soluta!</p>
+                </aside>
+
+                <section>
+                <h2>Section</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nostrum saepe sapiente modi molestiae non amet incidunt nulla dolores architecto impedit possimus perferendis sit eius ab asperiores dolorum cumque aliquid.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt illum unde similique sunt accusamus velit, facere modi enim! Aut a enim dolore voluptatibus perferendis, ad excepturi in? Vero, commodi quidem?</p>
+                </section>
+
+                <article>
+                <h2>Article</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reiciendis tempore itaque magnam, qui doloribus. Voluptatum voluptatibus, at, rerum architecto repellendus incidunt assumenda laudantium fugiat beatae dicta sed amet ducimus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea commodi totam atque cum accusamus blanditiis ullam et, cupiditate nulla deleniti facilis molestiae consectetur dicta veniam dolores nobis a saepe rerum.</p>
+                </article>
+
+                <footer>
+                <h1>This is my footer line</h1>
+                </footer>
+
+                <br>
+                <a href="projects.html" style="text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: rgb(255, 255, 255); border-style: solid;
+                border-color: rgb(126, 25, 25); background-color: rgb(104, 13, 13);
+                padding: 1px;
+                letter-spacing: 1px; 
+                display: inline-block;
+                position: fixed; 
+                top: 20px; 
+                right: 20px; 
+                z-index: 100;">
+                <b><i>GO BACK TO PROJECTS</i></b></a>
+            </body>
+</html>
